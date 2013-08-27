@@ -18,19 +18,27 @@ PRODUCT_PACKAGES += \
     libRS \
     hwprops \
     rzscontrol \
+    copybit.msm7k \
+    Gallery \
     gps.u8120 \
+    gralloc.msm7k \
     libOmxCore \
     libOmxVidEnc \
     lights.msm7k \
-    copybit.msm7k \
-    u8120Parts \
-    abtfilt \
-    setup_fs \
-    make_ext4fs \
-    e2fsck \
-    dexpreopt
+    rzscontrol \
+    screencap
 
-DISABLE_DEXPREOPT := false
+# Recovery tools
+PRODUCT_PACKAGES += \
+    flash_image \
+    dump_image \
+    erase_image \
+    make_ext4fs \
+    e2fsck
+
+# U8120Parts
+PRODUCT_PACKAGES += \
+    U8120Parts
 
 # Gallery 2D
 PRODUCT_PACKAGES += Gallery
@@ -38,9 +46,7 @@ PRODUCT_PACKAGES += Gallery
 # Live Wallpapers
 PRODUCT_PACKAGES += \
     librs_jni \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    VisualizationWallpapers
+    LiveWallpapersPicker
 
 # Live Wallpapers support
 PRODUCT_COPY_FILES += \

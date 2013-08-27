@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),u8120)
-include $(call all-named-subdir-makefiles, recovery libaudio U8120Parts setup_fs)
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(TARGET_DEVICE),u8120)
+    include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
