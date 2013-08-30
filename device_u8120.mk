@@ -126,17 +126,6 @@ PRODUCT_COPY_FILES += \
     device/huawei/u8120/prebuilt/etc/sysctl.conf:system/etc/sysctl.conf \
     device/huawei/u8120/prebuilt/etc/vold.fstab:system/etc/vold.fstab
 
-# Huawei M865 apps
-PRODUCT_COPY_FILES += \
-    device/huawei/u8120/prebuilt/app/HuaweiBackupV2.1.8.apk:system/app/HuaweiBackupV2.1.8.apk \
-    device/huawei/u8120/prebuilt/app/HwWallpaperChooser.apk:system/app/HwWallpaperChooser.apk \
-    device/huawei/u8120/prebuilt/app/HuaweiLauncher2.apk:system/app/HuaweiLauncher2.apk
-
-# Hardware permissions M865
-PRODUCT_COPY_FILES += \
-    frameworks/base/data/etc/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
-    frameworks/base/data/etc/android.hardware.microphone.xml:system/etc/permissions/android.hardware.microphone.xml
-
 # rmt_storage
 PRODUCT_COPY_FILES += \
     device/huawei/u8120/prebuilt/bin/rmt_storage:system/bin/rmt_storage
@@ -148,8 +137,6 @@ PRODUCT_COPY_FILES += \
 # Zipalign, tweaks and MAC
 PRODUCT_COPY_FILES += \
     device/huawei/u8120/prebuilt/etc/init.d/02huawei:system/etc/init.d/02huawei \
-    device/huawei/u8120/prebuilt/bin/zipalign:system/bin/zipalign \
-    device/huawei/u8120/prebuilt/etc/init.d/70zipalign:system/etc/init.d/70zipalign \
     device/huawei/u8120/prebuilt/etc/check_property.sh:system/etc/check_property.sh \
     device/huawei/u8120/firmware/softmac:system/wifi/softmac
 
