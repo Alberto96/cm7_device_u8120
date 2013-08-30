@@ -100,10 +100,6 @@ PRODUCT_COPY_FILES += \
     device/huawei/u8120/prebuilt/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     device/huawei/u8120/prebuilt/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf
 
-# GPS
-PRODUCT_COPY_FILES += \
-     device/huawei/u8120/prebuilt/etc/gps.conf:system/etc/gps.conf
-
 # Audio
 PRODUCT_COPY_FILES += \
     device/huawei/u8120/prebuilt/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
