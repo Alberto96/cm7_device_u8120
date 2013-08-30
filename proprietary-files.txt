@@ -7,14 +7,13 @@ bin/rild
 
 lib/libaudio.so
 lib/libaudioeq.so
+lib/libcamera.so
 lib/libOmxCore.so
 lib/libOmxH264Dec.so
 lib/libOmxMpeg4Dec.so
 lib/libOmxVidEnc.so
 lib/libOmxWmvDec.so
 lib/libmm-adspsvc.so
-lib/libmm-omxcore.so
-lib/libsnd.so
 lib/libauth.so
 lib/libril-qc-1.so
 lib/libril.so
