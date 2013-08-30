@@ -105,11 +105,6 @@ PRODUCT_COPY_FILES += \
     device/huawei/u8120/prebuilt/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
     device/huawei/u8120/prebuilt/etc/AutoVolumeControl.txt:system/etc/AutoVolumeControl.txt \
 
-# Bootsound 
-PRODUCT_COPY_FILES += \
-    device/huawei/u8120/prebuilt/bin/bootsound:system/bin/bootsound \
-    device/huawei/u8120/prebuilt/media/poweron.ogg:system/media/poweron.ogg
-
 # Keylayout
 PRODUCT_COPY_FILES += \
     device/huawei/u8120/prebuilt/surf_keypad.kcm.bin:system/usr/keychars/surf_keypad.kcm.bin \
