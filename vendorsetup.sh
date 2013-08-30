@@ -21,3 +21,4 @@
 # function: add_lunch_combo generic-eng
 
 add_lunch_combo cyanogen_u8120-eng
+add_lunch_combo generic_u8120-eng
